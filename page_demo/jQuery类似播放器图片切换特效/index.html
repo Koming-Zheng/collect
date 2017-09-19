@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery类似播放器图片切换特效 - 站长素材</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/jquery-image-player-min.css" />
+<link type="text/css" rel="stylesheet" href="css/d2.css" />
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery-image-player-min.js"></script>
+<script type="text/javascript">
+$(function(){
+$('#demo2').jsVideoPlayer({
+	showTitle:false,
+	showVolumeControl:false,
+	playerWidth:400,
+	playerHeight:340
+});
+});
+</script>
+</head>
+<body>
+<section class="wrapper">
+
+	<section class="contentWrapper contBg1">
+		<section class="content">
+					
+					<div id="demo2">
+						<ul>
+							<li data-duration="0"></li>
+							<li data-duration="50">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo" data-effect="animate" data-effect-steps="5" data-effect-animate="margin-top:0; opacity:1" />
+								</div>
+							</li>
+							<li data-duration="500">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+								</div>
+							</li>
+							<li data-duration="50">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input" data-effect="animate" data-effect-steps="5" data-effect-animate="margin-top:0; opacity:1"><span>Username</span></div>
+								</div>
+							</li>
+							<li data-duration="500">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+								</div>
+							</li>
+							<li data-duration="50">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input" data-effect="animate" data-effect-steps="5" data-effect-animate="margin-top:0; opacity:1"><span>Password</span></div>
+								</div>
+							</li>
+							<li data-duration="500">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input reset"><span>Password</span></div>
+								</div>
+							</li>
+							<li data-duration="50">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input reset"><span>Password</span></div>
+									<div class="rememberme" data-effect="animate" data-effect-steps="5" data-effect-animate="margin-top:0; opacity:1">Remember me</div>
+								</div>
+							</li>
+							<li data-duration="500">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input reset"><span>Password</span></div>
+									<div class="rememberme reset">Remember me</div>
+								</div>
+							</li>
+							<li data-duration="50">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input reset"><span>Password</span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button" data-effect="animate" data-effect-steps="5" data-effect-animate="margin-top:0; opacity:1">SIGN IN</div>
+								</div>
+							</li>
+							<li data-duration="500">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input reset"><span>Password</span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button reset">SIGN IN</div>
+								</div>
+							</li>
+							<li data-duration="50">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input reset"><span>Password</span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button reset">SIGN IN</div>
+									<div class="forgotpassword" data-effect="animate" data-effect-steps="5" data-effect-animate="margin-top:0; opacity:1">Forgot your password?</div>
+								</div>
+							</li>
+							<li data-duration="1000">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span>Username</span></div>
+									<div class="input reset"><span>Password</span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button reset">SIGN IN</div>
+									<div class="forgotpassword reset">Forgot your password?</div>
+								</div>
+							</li>
+							<li data-duration="1000">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span class="actName">Yourname</span></div>
+									<div class="input reset"><span>Password</span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button reset">SIGN IN</div>
+									<div class="forgotpassword reset">Forgot your password?</div>
+								</div>
+							</li>
+							<li data-duration="1000">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span class="actName">Yourname</span></div>
+									<div class="input reset"><span class="actPass"></span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button reset">SIGN IN</div>
+									<div class="forgotpassword reset">Forgot your password?</div>
+								</div>
+							</li>
+							<li data-duration="1000">
+								<div class="loginbox">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span class="actName">Yourname</span></div>
+									<div class="input reset"><span class="actPass"></span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button reset actSign">SIGN IN</div>
+									<div class="forgotpassword reset">Forgot your password?</div>
+								</div>
+							</li>
+							<li data-duration="50">
+								<div class="loginbox" data-effect="animate" data-effect-steps="10" data-effect-animate="margin-top:-320px;">
+									<img src="demo-images/uipg-logo.png" class="logo reset" />
+									<div class="input reset"><span class="actName">Yourname</span></div>
+									<div class="input reset"><span class="actPass"></span></div>
+									<div class="rememberme reset">Remember me</div>
+									<div class="button reset actSign">SIGN IN</div>
+									<div class="forgotpassword reset">Forgot your password?</div>
+								</div>
+							</li>
+							<li data-duration="50">
+								<div class="loginbox welcome" data-effect="animate" data-effect-steps="10" data-effect-animate="margin-top:0;">
+									<img src="demo-images/img5.png" />
+								</div>
+							</li>
+							<li data-duration="1000">
+								<div class="loginbox">
+									<img src="demo-images/img5.png" />
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+		</section>
+		<div style="text-align:center;">
+			<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+			<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+		</div>
+	</section>
+</section>
+</body>
+</html>

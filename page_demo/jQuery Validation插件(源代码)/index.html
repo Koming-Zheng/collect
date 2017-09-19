@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="form" action="" method="post">
+        <input type="text" name="abcd">
+        <br>
+        <input type="submit">
+    </form>
+    <script src="vendor/jquery-1.10.0.js"></script>
+    <script src="vendor/jquery.validate-1.13.1.js"></script>
+    <script>
+    $(function() {
+        $.validator.setDefaults({
+            debug: false
+        });
+
+        $('#form').validate({
+
+            rules: {
+                abcd: {
+                    required: true
+                }
+            },
+            messages: {
+                abcd: {
+                    required: '必填'
+                }
+            }
+        });
+    })
+    $('#contentform').validate({
+        debug: false,
+        rule: {
+            file_title: {
+                require: true
+            },
+            file_date: {
+                require: true
+            },
+            file_url: {
+                require: true
+            }
+        },
+        messages: {
+            file_title: {
+                require: '必填'
+            },
+            file_date: {
+                require: '必填'
+            },
+            file_url: {
+                require: '必填'
+            }
+        }
+    })
+    </script>
+</body>
+
+</html>
